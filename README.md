@@ -1,4 +1,4 @@
-#README
+# README
 
 This is the repo for my first Ruby app, which happens to be a blog app.
 

@@ -2,4 +2,4 @@
 
 This is the repo for my first Ruby app, which happens to be a blog app
 
-TO RUN RAILS SERVER: rails s -b $IP -p $PORT
+TO RUN RAILS SERVER ON CLOUD9 IDE: rails s -b $IP -p $PORT

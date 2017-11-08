@@ -20,6 +20,7 @@ class ArticlesController < ApplicationController
       render 'edit'
     end
   end
+  
   def create
     @article = Article.new(article_params)
     if @article.save

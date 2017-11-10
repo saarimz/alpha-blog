@@ -1,2 +1,64 @@
+body {
+  font-size : 62.5%;
+  margin: none;
+  padding: none;
+}
+
+$navbar-default-bg: #0808AA;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  font-size: 2rem;
+  float: left;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: -0.1rem;
+  font-weight: bold;
+}
+
+#logo:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('paul-gilmore-325220.jpg');
+  background-size: cover;
+  height: 50rem;
+}
+
+.jumbotron h1 {
+  color: #F7F7F7;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  -webkit-text-stroke: 0.1rem black;
+}
+
+footer {
+  margin-top: 5rem;
+  padding-top: 0.5rem;
+  border-top: 0.1rem solid #F7F7F7;
+  color: #777;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 1.5rem;
+}

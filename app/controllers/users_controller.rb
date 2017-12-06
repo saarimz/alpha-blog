@@ -20,6 +20,10 @@ class UsersController < ApplicationController
     
   end
   
+  def index
+    @users = User.all
+  end
+  
   def update
     if @user.update(user_params)
       flash[:success] = "Your details have been updated!"

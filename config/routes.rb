@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get "about" => "pages#about"
   
   get "signup" => "users#new"
-  resources :users, except: [:new]
+  resources :users, except: [:newuse]
   
   resources :articles
   

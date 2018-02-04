@@ -93,3 +93,15 @@ footer ul li {
   padding: 0;
   text-align: center;
 }
+
+.badge {
+  background-color: #cef6f5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  margin-left: 0.6rem;
+}
+
+.input-checkbox input {
+  width: auto !important;
+}
